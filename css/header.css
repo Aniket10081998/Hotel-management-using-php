@@ -1,5 +1,6 @@
 
 @import url('https://cdnjs.cloudflare.com/ajax/libs/sanitize.css/2.0.0/sanitize.min.css');
+
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:700|Roboto:300');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
@@ -71,6 +72,7 @@ h1 {
   .card__contents {
     display: flex;
     flex-direction: column; 
+
     padding: 2rem;
   }
 
@@ -116,30 +118,17 @@ h1 {
     font-family: 'FontAwesome'; 
     font-style: normal; 
 }
-
-/*[class^="social-button"] {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center; 
-    height: 3rem; 
-    width: 3rem;
-    font-size: 1.4rem;
-    color: white; 
-    border-radius: 50%;
-    text-decoration: none; 
-    transition: background-color 150ms ease-in-out; 
-    margin-right: 0.1rem;
-}*/
-
 .menu-button {
   display: flex;
   justify-content: center; 
   align-items: center; 
-  width: 10rem; 
-  height: 10rem;
+
+  width: 4rem; 
+  height: 4rem;
   border-radius: 50%;
   background-color: rgba(255,255,255,0.4); 
   cursor: pointer;
+
   transition: background-color 500ms ease-in-out; 
 }
 
@@ -155,7 +144,7 @@ h1 {
 
 .menu-icon {
   position: relative; 
-  width: 2rem; 
+    width: 2rem; 
   height: 1.5rem; 
 }
 
@@ -172,11 +161,11 @@ h1 {
 }
 
 .menu-icon span:nth-child(2) {
-    top: 0.625rem; 
+    top: 0.625rem; /* Position the second line roughly 10px from the top, one on top of the other */
 }
 
 .menu-icon span:nth-child(3) {
-    top: 1.25rem; 
+    top: 1.25rem; /* Position the fourth line roughly 20px from the top */
 }
 
 .menu-button:hover span,
@@ -197,7 +186,7 @@ h1 {
 
 .menu-icon.is-active span:nth-child(3) {
   top: 0.625rem; 
-  transform: rotate(-45deg);
+    transform: rotate(-45deg);
 }
 
 
@@ -210,9 +199,12 @@ h1 {
   width: 100vw;
   height: 100vh; 
   overflow: scroll; 
+
   background-color: rgba(255,255,255,0.95);
+
   opacity: 0;
   pointer-events: none; 
+
   transition: top 500ms ease-in, opacity 300ms ease-in; 
 }
 
@@ -278,8 +270,8 @@ h1 {
 .fullscreen-menu [class^="social-button"] {
   margin: 0 0.5rem; 
   height: 3.75rem; 
-  width: 3.75rem;
-  font-size: 1.5rem; 
+    width: 3.75rem;
+    font-size: 1.5rem; 
 }
 
 @media only screen and (min-width: 46rem) {
