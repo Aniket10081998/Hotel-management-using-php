@@ -116,21 +116,6 @@ h1 {
     font-family: 'FontAwesome'; 
     font-style: normal; 
 }
-
-/*[class^="social-button"] {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center; 
-    height: 3rem; 
-    width: 3rem;
-    font-size: 1.4rem;
-    color: white; 
-    border-radius: 50%;
-    text-decoration: none; 
-    transition: background-color 150ms ease-in-out; 
-    margin-right: 0.1rem;
-}*/
-
 .menu-button {
   display: flex;
   justify-content: center; 
