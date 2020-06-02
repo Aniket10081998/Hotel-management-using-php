@@ -182,7 +182,7 @@ else
                 echo"<div name='title' id='id4'>".$row["destination"]."</div>";
                 echo"<div name='comment' id='id5'>From:".$row["intime"]."</div>";
                 echo"<div name='comment' id='id5'>to:".$row["outime"]."</div>";
-                echo"<div name='comment' id='id5'> Your Booking are: ".$row["room1"]." Single Bed ".$row["room1"]." Double Bed ".$row["room1"]." Suite"."</div></div>";
+                echo"<div name='comment' id='id5'> Your Booking are: ".$row["room1"]." Single Bed ".$row["room2"]." Double Bed ".$row["room3"]." Suite"."</div></div>";
                 echo "<hr class='style-two'>";
             }
        }

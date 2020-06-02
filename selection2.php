@@ -461,7 +461,7 @@ if(isset($_GET["submit"]))
   $d=$_SESSION['d'];
   $i=$_SESSION['i'];
   $o=$_SESSION['o'];
-  $q1="insert into booking value('$e','$d','$i','$o','$s1','$s2','$s3')";
+  $q1="insert into booking values('$e','$d','$i','$o','$s1','$s2','$s3')";
   $m=mysqli_query($conn,$q1);
   echo"<script>document.location.href='booking.php'</script>";
 }

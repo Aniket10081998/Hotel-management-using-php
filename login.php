@@ -171,17 +171,17 @@ else
                             <div>
                               <img style="max-width:100%;
                               max-height:100%;" 
-                              src="picone.jpg">
+                              src="image/picone.jpg">
                             </div>
                             <div>
                               <img style="max-width:100%;
                                 max-height:100%;"
-                                src="pictwo.jpg">
+                                src="image/pictwo.jpg">
                             </div>
                             <div>
                                 <img style="max-width:100%;
                                 max-height:100%;" 
-                                src="picthree.jpg">
+                                src="image/picthree.jpg">
                             </div>
                             
                          </div>
